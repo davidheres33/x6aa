@@ -156,12 +156,12 @@ const purchaseHandlers = {
         inputs: ['followers-gamertag'],
         tosCheckbox: 'followers-tos-agreement',
         urls: {
-            '1000': 'https://buy.stripe.com/28odTA4AY3cKfDy9AB',
-            '2000': 'https://buy.stripe.com/5kA4j01oM6oW1MI4gi',
-            '5000': 'https://buy.stripe.com/eVa6r8d7ufZw1MI147',
-            '10000': 'https://buy.stripe.com/9AQ9Dk7Na8x4bni148',
-            '20000': 'https://buy.stripe.com/fZebLs3wUeVs62YdQV',
-            default: 'https://x3aa.com/'
+            '1000': 'https://paymentpage',
+            '2000': 'https://paymentpage',
+            '5000': 'https://paymentpage',
+            '10000': 'https://paymentpage',
+            '20000': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     gamerscore: {
@@ -169,11 +169,11 @@ const purchaseHandlers = {
         inputs: ['gamerscore-gamertag'],
         tosCheckbox: 'gamerscore-tos-agreement',
         urls: {
-            '50000': 'https://buy.stripe.com/4gw4j0ebyaFc4YU4gm',
-            '200000': 'https://buy.stripe.com/14k8zg1oM5kScrmaEL',
-            '500000': 'https://buy.stripe.com/eVag1I9Vi7t09fa8wE',
-            '1000000': 'https://buy.stripe.com/7sI5n44AY4gOdvqeV3',
-            default: 'https://x3aa.com/'
+            '50000': 'https://paymentpage',
+            '200000': 'https://paymentpage',
+            '500000': 'https://paymentpage',
+            '1000000': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     gamertag: {
@@ -181,11 +181,11 @@ const purchaseHandlers = {
         inputs: ['gamertag-email'],
         tosCheckbox: 'gamertag-tos-agreement',
         urls: {
-            'daily': 'https://buy.stripe.com/00g2aS1oM4gOfDyeV4',
-            'weekly': 'https://buy.stripe.com/4gw6r8d7ueVs7728wH',
-            'monthly': 'https://buy.stripe.com/6oEeXE3wUfZw9fadR2',
-            'lifetime': 'https://buy.stripe.com/5kA4j00kI8x49fa4gt',
-            default: 'https://x3aa.com/'
+            'daily': 'https://paymentpage',
+            'weekly': 'https://paymentpage',
+            'monthly': 'https://paymentpage',
+            'lifetime': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     lfg: {
@@ -193,11 +193,11 @@ const purchaseHandlers = {
         inputs: ['lfg-email'],
         tosCheckbox: 'lfg-tos-agreement',
         urls: {
-            'daily': 'https://buy.stripe.com/6oE6r8ebybJg0IE5ky',
-            'weekly': 'https://buy.stripe.com/8wM5n4ffC5kS62Y7sH',
-            'monthly': 'https://buy.stripe.com/5kAg1Ic3q4gO9faeVa',
-            'lifetime': 'https://buy.stripe.com/3cs6r85F2cNkcrmeVb',
-            default: 'https://x3aa.com/'
+            'daily': 'https://paymentpage',
+            'weekly': 'https://paymentpage',
+            'monthly': 'https://paymentpage',
+            'lifetime': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     followerBot: {
@@ -205,11 +205,11 @@ const purchaseHandlers = {
         inputs: ['follower-bot-email'],
         tosCheckbox: 'follower-bot-tos-agreement',
         urls: {
-            'daily': 'https://buy.stripe.com/aEUeXE9VieVs62Y8wO',
-            'weekly': 'https://buy.stripe.com/3csdTA5F214C4YU8wP',
-            'monthly': 'https://buy.stripe.com/3csdTAd7u28G8b68wQ',
-            'lifetime': 'https://buy.stripe.com/8wM4j08Re14C4YUcN7',
-            default: 'https://x3aa.com/'
+            'daily': 'https://paymentpage',
+            'weekly': 'https://paymentpage',
+            'monthly': 'https://paymentpage',
+            'lifetime': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     messageSpammer: {
@@ -217,11 +217,11 @@ const purchaseHandlers = {
         inputs: ['message-spammer-email'],
         tosCheckbox: 'message-spammer-tos-agreement',
         urls: {
-            'daily': 'https://buy.stripe.com/aEU5n45F25kSdvqaF0',
-            'weekly': 'https://buy.stripe.com/fZe7vc4AYeVs7726oL',
-            'monthly': 'https://buy.stripe.com/3cs4j00kI00ydvq3cA',
-            'lifetime': 'https://buy.stripe.com/4gw2aS8RedRofDy6oN',
-            default: 'https://x3aa.com/'
+            'daily': 'https://paymentpage',
+            'weekly': 'https://paymentpage',
+            'monthly': 'https://paymentpage',
+            'lifetime': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     profilePicture: {
@@ -229,8 +229,8 @@ const purchaseHandlers = {
         inputs: ['profile-picture-gamertag', 'profile-picture-selection'],
         tosCheckbox: 'profile-picture-tos-agreement',
         urls: {
-            'custom': 'https://buy.stripe.com/aEUdTAaZm14C2QM28y',
-            default: 'https://x3aa.com/'
+            'custom': 'https://paymentpage',
+            default: 'https://x6aa.com/'
         }
     },
     profilePictureCheckout: {
@@ -238,8 +238,8 @@ const purchaseHandlers = {
         inputs: ['profile-picture-checkout-gamertag', 'profile-picture-checkout-link'],
         tosCheckbox: 'profile-picture-checkout-tos-agreement',
         urls: {
-            'custom': 'https://buy.stripe.com/aEUdTAaZm14C2QM28y',
-            default: 'https://buy.stripe.com/aEUdTAaZm14C2QM28y'
+            'custom': 'https://paymentpage',
+            default: 'https://paymentpage'
         }
     }
 };
