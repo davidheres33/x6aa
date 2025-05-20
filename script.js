@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setTimeout(() => {
         announcementBanner.style.display = 'flex';
-    }, 5000);
+    }, 3000);
 
     closeButton.addEventListener('click', () => {
         announcementBanner.classList.add('hide');
