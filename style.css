@@ -1991,7 +1991,7 @@ button.billgang:hover {
     top: 8px;
     left: 50%;
     transform: translateX(-50%);
-    width: 450px;
+    width: 490px;
     height: 60px;
     background: rgba(var(--darker-rgb), 0.7);
     backdrop-filter: blur(8px);
